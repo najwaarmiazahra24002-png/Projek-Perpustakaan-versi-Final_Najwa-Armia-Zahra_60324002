@@ -58,7 +58,5 @@
 * Filter (date, status, anggota)
 * Statistics summary
 * Print-friendly
-### Setelah di kembalikan 
-![T1](T1.5.png)
-
-![T1](T1.6.png)
+  
+---
