@@ -1,4 +1,4 @@
-# Tugas Pertemuan 14 - AUTHENTICATION & TRANSAKSI PEMINJAMAN
+# PROJECT FINAL 
 
 ---
 
@@ -9,21 +9,55 @@
 **Mata Kuliah:** Pemrograman Web II  
 
 ---
-## Tugas 1 - Fitur Pengembalian Buku 
-### 1. View Detail Transaksi dengan button `("Kembalikan Buku")`
-![T1](T1.png)
+#### 1. Authentication System
+* Login 
+* Register
+* Logout 
+* Password Hashing 
+* Middleware protection
 ---
-### 2. Method `kembalikan()` di Controller (sudah ada template)
-### 3. Perhitugan Denda:
-* Denda Rp 5.000/hari
-* Hanya jika terlambat
-* Tampilkan total denda di detail
-![T1](T1.2.png)
+#### 2. CRUD Buku Lengkap
+* Create
+* Read
+* Update
+* Delete
+* Validation
+* Search & Filter 
 ---
-### 4. Update Stok: Stok buku bertambah 1 saat dikembalikan
-![T1](T1.3.png)
-
-![T1](T1.4.png)
+#### 3. CRUD Anggota Lengkap
+* Create 
+* Read 
+* Update
+* Delete 
+* Date Handling 
+* Email & Phone validation
+---
+#### 4. Transaksi Peminjaman
+* Form peminjaman
+* Auto update stok (-1)
+* Generate kode transaksi
+* Tanggal kembali auto (+7 hari)
+---
+#### 5. Pengembalian Buku 
+* Update status
+* Perhitungan denda (Rp 5.000/hari)
+* Auto update stok (+1)
+---
+#### 6. Dashboard
+* Minimum 6 statistics
+* 2 charts (line + pie/bar)
+* Recent data tables
+* Quick actions
+---
+#### 7. Global Search
+* Search 3 modules
+* Results dalam tabs
+* Keyword highlighting
+---
+#### 8. Laporan Transaksi
+* Filter (date, status, anggota)
+* Statistics summary
+* Print-friendly
 ### Setelah di kembalikan 
 ![T1](T1.5.png)
 
